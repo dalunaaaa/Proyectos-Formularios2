@@ -9,7 +9,32 @@
     <link rel="stylesheet" href="../../config/config.css">
 </head>
 <body>
-    <h2>Comentarios</h2>
+    <div class="formulario-contenedor">
+        <h2>Comentarios/Reseñas</h2>
+        <form>
+            <div class="grupo">
+                <label>Nombre:</label>
+                <div contenteditable="true" class="campo"></div>
+            </div>
+            <div class="grupo">
+                <label>Correo electrónico:</label>
+                <div contenteditable="true" class="campo"></div>
+            </div>
+            <div class="grupo">
+                <label>Calificación:</label>
+                <div class="estrellas">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="grupo">
+                <label>Comentario:</label>
+                <div contenteditable="true" class="campo" style="height: 80px;"></div>
+            </div>
+            <div class="grupo">
+                <div class="boton">Enviar</div>
+            </div>
+        </form>
+    </div>
     <script src="formularioDeComentarios.js"></script>
     
 </body>

@@ -9,7 +9,7 @@ let formularios = [
     {nombre:"Login", link:"componentes/login/login.html"},
     {nombre:"Busqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
     {nombre:"Contacto", link:"componentes/formularioDeContacto/formularioDeContacto.html"}, 
-    {nombre:"Comentarios", link:"componentes/formularioDeComentarioReseñas/formularioDeComentariosReseñas.html"},
+    {nombre:"Comentarios", link:"componentes/formularioDeComentarios/formularioDeComentarios.html"},
     {nombre:"Compras", link:"componentes/formularioDePedidoCompras/formularioDePedidoCompras.html"}, 
     {nombre:"Registro", link:"componentes/formularioDeRegistro/formularioDeRegistro.html"}, 
 ];
